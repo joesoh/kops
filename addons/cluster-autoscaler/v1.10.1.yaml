@@ -158,7 +158,7 @@ spec:
             - --nodes={{MIN_NODES}}:{{MAX_NODES}}:{{GROUP_NAME}}
             - --scale-down-delay-after-add={{SCALE_DOWN_DELAY_AFTER_ADD}}
             - --scale-down-delay-after-delete={{SCALE_DOWN_DELAY_AFTER_DELETE}}
-            - --scale-down-delay-after-failure={{SCALE_DOWN_DELAY_AFTER_FAILURE}}
+
           env:
             - name: AWS_REGION
               value: {{AWS_REGION}}
